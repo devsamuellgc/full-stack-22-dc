@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.container {
+    min-height: 100vh;
+}
+
+.cabecalho {
+    display: flex;
+    padding: 0 30px;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #d9dbe0;
+}
+
+.links {
+    display: flex;
+    gap: 50px;
+}
+
+.link {
+    text-decoration: none;
+    color: #030303;
+    font-size: 18px;
+    font-family: 'Montserrat',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+}
+
+.link:hover {
+    color: #0053ff;
+}
