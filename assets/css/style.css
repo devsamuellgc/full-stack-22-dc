@@ -30,11 +30,57 @@ body {
     text-decoration: none;
     color: #030303;
     font-size: 18px;
-    font-family: 'Montserrat',Arial,sans-serif;
+    font-family: 'Montserrat', Arial, sans-serif;
     line-height: 1.55;
     font-weight: 400;
 }
 
 .link:hover {
     color: #0053ff;
+}
+
+.access {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 530px;
+}
+
+.text-title {
+    color: #030303;
+    font-size: 55px;
+    font-family: 'IgraSans', Arial, sans-serif;
+    line-height: 1.25;
+    font-weight: 400;
+}
+
+.text-body {
+    color: #030303;
+    font-size: 18px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: 1.45;
+    font-weight: 400;
+}
+
+.text-btn {
+    font-size: 16px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #0053ff;
+    border: none;
+    padding: 20px 28px;
+    max-width: fit-content;
+    color: #fff;
+}
+
+.access-img {
+    max-width: 60%;
 }
