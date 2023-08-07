@@ -84,3 +84,142 @@ body {
 .access-img {
     max-width: 60%;
 }
+
+.section-key {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    padding: 80px 60px;
+}
+
+.key-title {
+    color: #030303;
+    font-size: 48px;
+    line-height: 1.25;
+    font-weight: 400;
+}
+
+.key-card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 262px;
+    max-height: 258px;
+    align-items: flex-start;
+}
+
+.title-key-card {
+    color: #030303;
+    font-size: 18px;
+    line-height: 1.45;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.img-key-card {
+    max-width: 140px;
+}
+
+.p-key-card {
+    color: #030303;
+    font-size: 18px;
+    line-height: 1.45;
+    font-weight: 400;
+}
+
+.title-key-card {
+    color: #030303;
+    font-size: 18px;
+    line-height: 1.45;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.title-card-span {
+    color: rgb(135, 145, 153);
+}
+
+.divider {
+    border-bottom: 2px solid #d9dbe0;
+    padding: 80px 60px;
+}
+
+.section-what-we-do {
+    padding: 80px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.what-we-do-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.we-do-card-title {
+    color: #030303;
+    font-size: 54px;
+    line-height: 1.25;
+    font-weight: 400;
+}
+
+.row-card-title {
+    color: #030303;
+    font-size: 18px;
+    line-height: 1.45;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.what-we-do-img {
+    max-width: 45%;
+}
+
+.what-we-do-card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.what-we-do-card-row {
+    display: flex;
+    gap: 40px;
+    height: 50%;
+}
+
+.row-card {
+    width: 260px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.row-card-p {
+    color: #030303;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.row-card-icon img {
+    height: 33px;
+    width: 33px;
+}
+
+.row-card-button {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #0053ff;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    align-self: flex-end;
+    width: 259px;
+    height: 64px;
+    border: none;
+}
+
+.row-card-button:hover {
+    background-color: #030303;
+    cursor: pointer;
+}
