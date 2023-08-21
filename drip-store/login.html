@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drip Store - Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="flex items-center gap-2 px-24 py-6">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="23"
+        height="23"
+        viewBox="0 0 23 23"
+        fill="none"
+      >
+        <path
+          d="M3.39039 0.442667C2.55689 0.582855 1.803 0.975386 1.19426 1.58287C0.744732 2.03615 0.552747 2.31653 0.30457 2.90065C-0.0185282 3.64366 0.000202183 3.16701 0.000202183 11.6251C0.000202183 19.901 -0.00916297 19.5739 0.257744 20.2748C0.440365 20.7655 0.72132 21.2047 1.11934 21.6206C1.68593 22.2141 2.29467 22.5692 3.10007 22.7842L3.48872 22.887L10.9574 22.9057C16.2722 22.915 18.562 22.9057 18.8897 22.8683C19.8637 22.7562 20.6504 22.387 21.3247 21.7187C21.8257 21.2234 22.1207 20.7421 22.3642 20.0178L22.5 19.6206V11.6765V3.73244L22.3923 3.36328C21.999 2.00344 20.9782 0.980059 19.5968 0.545471L19.1754 0.414629L11.4023 0.409956C7.12709 0.405283 3.5215 0.419302 3.39039 0.442667ZM8.37734 8.86805C9.95537 10.3821 11.2337 11.6391 11.229 11.6578C11.2197 11.6765 9.92259 12.9335 8.34456 14.4523L5.46946 17.214L4.72493 16.499C4.31754 16.1112 3.9804 15.7654 3.98508 15.742C3.98508 15.714 4.93564 14.7887 6.09224 13.6859C7.24415 12.5784 8.19004 11.6625 8.19472 11.6485C8.19472 11.6298 7.24884 10.7045 6.08756 9.59236C4.93096 8.48019 3.9804 7.55962 3.9804 7.5456C3.9804 7.48485 5.41327 6.0923 5.46009 6.10165C5.49287 6.11099 6.80399 7.354 8.37734 8.86805ZM18.59 16.3495V17.214H15.8742H13.1583V16.3495V15.485H15.8742H18.59V16.3495Z"
+          fill="#C92071"
+        />
+      </svg>
+      <p class="font-semibold text-2xl text-[#C92071]">Digital Store</p>
+    </header>
+    <main class="relative container py-32 px-24 pb-40">
+      <div class="p-8 bg-white rounded max-w-[500px]">
+        <form class="flex flex-col gap-8">
+          <div class="flex flex-col gap-5">
+            <h2 class="font-bold text-2xl text-[#1F1F1F]">Acesse sua conta</h2>
+            <p class="font-normal text-base text-[#474747]">
+              Novo cliente? Então registre-se
+              <a class="underline underline-offset-4" href="#">aqui</a>
+            </p>
+          </div>
+          <div class="flex flex-col gap-5">
+            <div class="flex flex-col gap-1">
+              <label class="text-xs font-bold text-[#474747]" for="email"
+                >E-mail</label
+              >
+              <input
+                class="py-4 px-6 rounded-lg outline-none bg-[#F5F5F5]"
+                type="text"
+                id="email"
+                placeholder="Insira seu login ou email"
+              />
+            </div>
+            <div class="flex flex-col gap-1">
+              <label class="text-xs font-bold text-[#474747]" for="password"
+                >Senha</label
+              >
+              <input
+                class="py-4 px-6 rounded-lg outline-none bg-[#F5F5F5]"
+                type="password"
+                id="password"
+                placeholder="Insira sua senha"
+              />
+            </div>
+          </div>
+          <a
+            class="text-sm font-medium text-[#474747] underline underline-offset-4"
+            href="#"
+          >
+            Esqueci minha senha
+          </a>
+          <button
+            class="bg-[#C92071] h-12 text-center text-base font-bold text-[#F5F5F5] rounded-lg"
+          >
+            Acessar conta
+          </button>
+          <div class="flex justify-center">
+            <p class="flex gap-5 text-base font-normal text-[#474747]">
+              Ou faça login com
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_476_2915)">
+                  <path
+                    d="M24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 17.9895 4.3882 22.954 10.125 23.8542V15.4688H7.07812V12H10.125V9.35625C10.125 6.34875 11.9166 4.6875 14.6576 4.6875C15.9701 4.6875 17.3438 4.92188 17.3438 4.92188V7.875H15.8306C14.34 7.875 13.875 8.80008 13.875 9.75V12H17.2031L16.6711 15.4688H13.875V23.8542C19.6118 22.954 24 17.9895 24 12Z"
+                    fill="#1877F2"
+                  />
+                  <path
+                    d="M16.6711 15.4688L17.2031 12H13.875V9.75C13.875 8.80102 14.34 7.875 15.8306 7.875H17.3438V4.92188C17.3438 4.92188 15.9705 4.6875 14.6576 4.6875C11.9166 4.6875 10.125 6.34875 10.125 9.35625V12H7.07812V15.4688H10.125V23.8542C11.3674 24.0486 12.6326 24.0486 13.875 23.8542V15.4688H16.6711Z"
+                    fill="white"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_476_2915">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_476_2915)">
+                  <path
+                    d="M24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 17.9895 4.3882 22.954 10.125 23.8542V15.4688H7.07812V12H10.125V9.35625C10.125 6.34875 11.9166 4.6875 14.6576 4.6875C15.9701 4.6875 17.3438 4.92188 17.3438 4.92188V7.875H15.8306C14.34 7.875 13.875 8.80008 13.875 9.75V12H17.2031L16.6711 15.4688H13.875V23.8542C19.6118 22.954 24 17.9895 24 12Z"
+                    fill="#1877F2"
+                  />
+                  <path
+                    d="M16.6711 15.4688L17.2031 12H13.875V9.75C13.875 8.80102 14.34 7.875 15.8306 7.875H17.3438V4.92188C17.3438 4.92188 15.9705 4.6875 14.6576 4.6875C11.9166 4.6875 10.125 6.34875 10.125 9.35625V12H7.07812V15.4688H10.125V23.8542C11.3674 24.0486 12.6326 24.0486 13.875 23.8542V15.4688H16.6711Z"
+                    fill="white"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_476_2915">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </p>
+          </div>
+        </form>
+      </div>
+      <img class="hidden lg:block absolute top-[80px] right-64" src="./tenis-1.png" alt="" />
+      <img class="hidden lg:block absolute bottom-0 right-0" src="./tenis-2.png" alt="" />
+    </main>
+    <footer></footer>
+  </body>
+</html>

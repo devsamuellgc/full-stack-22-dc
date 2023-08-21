@@ -1,0 +1,7 @@
+* {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background: linear-gradient(180deg, #b5b6f2 0%, #efefff 100%);
+}
