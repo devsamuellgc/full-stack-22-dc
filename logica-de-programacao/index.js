@@ -47,9 +47,6 @@ if (num1 === 0) {
  * Exercícios
  * Escreva um programa que verifique se um número é positivo, negativo ou zero.
  * Escreva um programa que determine se um número é par ou ímpar.
- * Escreva um programa que verifique se um ano é bissexto. 
-   Um ano é bissexto se for divisível por 4, mas não por 100. 
-   No entanto, anos divisíveis por 400 também são bissextos.
  * Escreva um programa que calcule o IMC (Índice de Massa Corporal) 
    de uma pessoa com base em seu peso e altura. 
    O programa deve exibir uma mensagem informando se a pessoa 
