@@ -1,0 +1,20 @@
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.titulo {
+  font-size: 36px;
+  text-transform: uppercase;
+  color: chocolate;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.texto {
+  font-size: 20px;
+  color: blue;
+}
