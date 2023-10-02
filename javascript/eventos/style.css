@@ -11,3 +11,43 @@
 .bgBlack {
   background-color: black;
 }
+
+.modal {
+  height: 350px;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  position: relative;
+  display: flex;
+  background-color: beige;
+  border-radius: 6px;
+  z-index: 10;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.bg-modal {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.80);
+  z-index: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: flex;
+}

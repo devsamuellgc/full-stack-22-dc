@@ -9,8 +9,15 @@
   <body>
     <div class="container" id="container1"></div>
     <div class="container" id="container2"></div>
-    <button onclick="changeBgColor()">Azul</button>
-    <button>Preto</button>
+    <button id="btnBlue">Azul</button>
+    <button id="btnBlack">Preto</button>
+    <button id="openModal">Abrir modal</button>
+    <div class="bg-modal hidden" id="modal">
+      <div class="modal">
+        <span id="closeModal" class="close">X</span>
+        <p class="modal-body">Corpo do modal</p>
+      </div>
+    </div>
     <script src="./index.js"></script>
   </body>
 </html>
