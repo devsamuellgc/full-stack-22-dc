@@ -18,8 +18,27 @@ const frutas = ["Maçã", "Banana"];
 // Acessar o último elemento do array
 // console.log(frutas[frutas.length - 1]);
 
-frutas.map((fruta, index) => {
-  return console.log(fruta, index);
-});
+// frutas.map((fruta, index) => {
+//   return console.log(fruta, index);
+// });
 
 //https://dontpad.com/fs-22-map
+
+// Push, pop, unshift, shift
+// console.log(frutas);
+
+// Envia o valor para o final do array
+frutas.push("Abacaxi");
+// console.log(frutas);
+
+// Exclui o último elemento do array
+// frutas.pop();
+// console.log(frutas);
+
+// Exclui o primeiro elemento do array
+// frutas.shift();
+// console.log(frutas);
+
+// Adiciona um valor na primeira posição do array
+// frutas.unshift("Uva");
+// console.log(frutas);
