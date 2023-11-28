@@ -21,5 +21,5 @@ export const routes = createBrowserRouter([
         element: <h1>Olá produtos</h1>,
       },
     ],
-  },
+  }
 ]);
