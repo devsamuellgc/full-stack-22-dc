@@ -23,10 +23,6 @@ export function Inputs() {
     return date;
   }
 
-  useEffect(() => {
-    console.log(handleDateShow(user.date));
-  }, []);
-
   return (
     <>
       <h2>Lidando com Inputs no React com useState</h2>

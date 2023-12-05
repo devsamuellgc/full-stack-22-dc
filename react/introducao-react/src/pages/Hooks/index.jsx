@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Inputs } from "../../components/ReactHooks/useState/inputs";
+import { Inputs } from "../../components/pages/ReactHooks/useState/inputs";
+import { UseEffectComponent } from "../../components/pages/ReactHooks/useEffect";
 
 export default function Hooks() {
   const [counter, setCounter] = useState(0);
@@ -62,6 +63,7 @@ export default function Hooks() {
         <button onClick={handleZero}>Zerar contador</button>
       </div>
       <Inputs />
+      <UseEffectComponent />
     </>
   );
 }

@@ -8,6 +8,9 @@ export function Sidebar() {
           <Link to="/">Home</Link>
         </li>
         <li>
+          <Link to="/usuarios">Usuários</Link>
+        </li>
+        <li>
           <Link to="/produtos">Produtos</Link>
         </li>
         <li>
