@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { toast } from "react-toastify";
 
 export function useUsers() {
   const [users, setUsers] = useState([]);
@@ -24,9 +25,27 @@ export function useUsers() {
     await fetchUsers();
   }
 
+  function clearFields() {
+    user.name = "";
+    user.lastName = "";
+  }
+
   function handleSubmit(e) {
     e.preventDefault();
-    createUser();
+    if (user.name.length > 2 && user.lastName.length >= 3) {
+      createUser();
+      clearFields();
+      toast.success("Usuário criado com sucesso!", {
+        position: "bottom-right",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: false,
+        draggable: false,
+        progress: undefined,
+        theme: "dark",
+      });
+    }
   }
 
   async function fetchUsers() {
@@ -40,6 +59,16 @@ export function useUsers() {
     await axios.delete(
       `https://656e487ebcc5618d3c24bf2a.mockapi.io/api/users/${id}`
     );
+    toast.success("Usuário deletado com sucesso!", {
+      position: "bottom-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: false,
+      draggable: false,
+      progress: undefined,
+      theme: "dark",
+    });
     await fetchUsers();
   }
 
