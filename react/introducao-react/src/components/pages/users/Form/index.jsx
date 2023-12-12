@@ -1,7 +1,7 @@
-import { useUsersForm } from "./useUsersForm";
+// import { useUsersForm } from "./useUsersForm";
 
-export function Form() {
-  const { user, handleUser, handleSubmit } = useUsersForm();
+export function Form({ user, handleUser, handleSubmit }) {
+  // const { user, handleUser, handleSubmit } = useUsersForm();
 
   return (
     <form

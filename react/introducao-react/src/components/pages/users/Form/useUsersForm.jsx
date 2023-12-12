@@ -15,7 +15,7 @@ export function useUsersForm() {
   }
 
   async function createUser() {
-    const response = await axios.post(
+    await axios.post(
       "https://656e487ebcc5618d3c24bf2a.mockapi.io/api/users",
       user
     );
