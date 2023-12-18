@@ -3,6 +3,7 @@ import { MainLayout } from "../layouts/MainLayout";
 import { ClientsTable } from "../components/shered/Table/ClientsTable";
 import Hooks from "../pages/Hooks";
 import UsersPage from "../pages/Users";
+import { UsersProvider } from "../context/UsersContext";
 
 export const routes = createBrowserRouter([
   {
@@ -15,7 +16,11 @@ export const routes = createBrowserRouter([
       },
       {
         path: "/usuarios",
-        element: <UsersPage />,
+        element: (
+          <UsersProvider>
+            <UsersPage />
+          </UsersProvider>
+        ),
       },
       {
         path: "/clientes",
